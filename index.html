@@ -15,11 +15,11 @@
  <form onsubmit="CalculaDolar(event)">
     <div>
     <label for="real">Reais:</label>
-<input type="text" placeholder="Valor em Reais" id="real" required></div>
+<input type="number" step="any" placeholder="Valor em Reais" id="real" required></div>
 
     <div><label for="real">Dólar:</label>
-<input type="text" placeholder="Valor do Dólar: 5,70" id="dolar" required = "d"></div>
-<div> <input type="submit" value="Calcular"> </div>
+<input type="number" step="any" value="5.70" placeholder="Valor do Dólar: 5,70" id="dolar" required = "d"></div>
+<div> <input type="submit" value="Calcular" > </div>
 
  </form>
  
@@ -27,7 +27,7 @@
 
     <div class="meio">
         <div class="h1"><h2>CÁLCULOS</h2></div>
-        <div class="ul" id="ul">  <ul id="ul">
+        <div class="ul" id="ul"> <p>Valor em Dólar:</p> <ul id="ul">
            
         </ul>
     </div>

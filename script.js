@@ -16,11 +16,11 @@ return false;
       var total = Real / Dolar;
     
 
-      li.innerHTML = total;
+      li.innerHTML = " $ " + total.toFixed(2);
    ul.appendChild(li);
    setTimeout(() => {
       var Real = document.getElementById('real').value = '';
-      var Dolar = document.getElementById('dolar').value = '';
+      var Dolar = document.getElementById('dolar').value = '5.70';
    }, 0);
     }
 
