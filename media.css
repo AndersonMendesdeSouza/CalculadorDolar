@@ -10,7 +10,7 @@
      padding: 0;}
     .corpo{
         width: 80%;
-        height: 70%;
+        height: 82%;
         border: 1px solid rgb(255, 255, 255);
         background-color: white;
         border: 0;
@@ -32,8 +32,8 @@
         font-family: Verdana, Geneva, Tahoma, sans-serif;
         letter-spacing: 2px;
         margin-bottom: 10px;
-        font-size: 15px;
-        margin-top: 10px;
+        font-size: 20px;
+        margin-top: 20px;
     }
     .top form{
         display: flex;
@@ -42,11 +42,11 @@
         align-items: center;
     }
     .top input{
-        font-size: 10px;
+        font-size: 12px;
         font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
         color: rgb(0, 0, 0);
         background-color: rgb(255, 255, 255);
-     padding: 6px 20px;
+     padding: 6px 30px;
      margin: 7px;
      border-radius: 5px;
     }
@@ -55,7 +55,7 @@
     
     }
     .top label{
-        font-size: 10px;
+        font-size: 15px;
         color: white;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     }
@@ -63,7 +63,7 @@
         background-color: white;
         border: 0;
         color: black;
-        font-size: 10px;
+        font-size: 12px;
         cursor: pointer;
     }
     
@@ -71,7 +71,7 @@
         width:100% ;
         height: calc(450px - 150px);
      display: flex;
-     margin-top: 10px;
+     margin-top: 12px;
     flex-direction: column;
      
      
@@ -82,7 +82,7 @@
         letter-spacing: 2px;
         margin-bottom: 10px;
         text-align: center;
-        font-size: 10px;
+        font-size: 12px;
     }
     .meio .ul{
         
@@ -90,4 +90,29 @@
         margin-top: 10px;
         font-size: 20px;
     }
+    .button{     background: linear-gradient(to right, rgb(113, 203, 255) 0%, blue 100%);
+
+        padding: 10px;
+        
+          border: 0;
+        display: flex;
+        width: 100%;
+        display: flex;
+        flex-direction: row-reverse;
+        margin-bottom: 50px;
+       }
+       button{
+           padding: 5px 20px;
+           border-radius: 5px;
+           font-weight: 400;
+           color: black;
+           transition: 0.3s;
+           cursor: pointer;
+           margin-top: 10px;
+           
+       }
+       
+       button:hover{
+            transform: scale(1.1);
+       }
 }
