@@ -33,7 +33,7 @@
         letter-spacing: 2px;
         margin-bottom: 10px;
         font-size: 20px;
-        margin-top: 20px;
+        margin-top: 30px;
     }
     .top form{
         display: flex;
@@ -83,6 +83,7 @@
         margin-bottom: 10px;
         text-align: center;
         font-size: 12px;
+        
     }
     .meio .ul{
         
