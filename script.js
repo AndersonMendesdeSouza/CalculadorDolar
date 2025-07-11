@@ -20,7 +20,7 @@ return false;
    ul.appendChild(li);
    setTimeout(() => {
       var Real = document.getElementById('real').value = '';
-      var Dolar = document.getElementById('dolar').value = '5.70';
+      var Dolar = document.getElementById('dolar').value = '5.56';
    }, 0);
     }
 
